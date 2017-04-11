@@ -7,6 +7,7 @@
     <title>Layout Test</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:300" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -15,55 +16,78 @@
 <header>
     <nav>
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#!" class="brand-logo">Harmony Hub</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
-            </ul>
+            <!--<ul class="right hide-on-med-and-down">-->
+                <!--<li><a href="#">Activities</a></li>-->
+                <!--<li><a href="#">Devices</a></li>-->
+            <!--</ul>-->
             <ul class="side-nav" id="mobile-demo">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Devices</a></li>
             </ul>
         </div>
     </nav>
 </header>
 
 <main>
-
-    <!-- Option 1: use Materialize tabs to hold the divs
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!-- Option #1: use Materialize tabs to hold the divs
         Problem: This may not be a scalable approach; what happens after the div appears? How will the user move to the
         next section after clicking that div???
         -->
-    <div class="row">
-        <div class="col s12">
-            <ul class="tabs tabs-fixed-width">
-                <li class="tab col s3"><a href="#test1">Test 1</a></li>
-                <li class="tab col s3"><a href="#test2">Test 2</a></li>
-            </ul>
-        </div>
-        <!-- Tab 1 is clicked whatever is inside this div will show-->
-        <div id="test1" class="col s12">Test 1</div>
-        <!-- Tab 2 is clicked whatever is inside this div will show-->
-        <div id="test2" class="col s12">Test 2</div>
-    </div>
-
-
-    <!-- Option 2: create two divs by hand; build out each display that will show; use jQuery show hide as the user
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--<div class="row">-->
+        <!--<div class="col s12">-->
+            <!--<ul class="tabs tabs-fixed-width">-->
+                <!--<li class="tab col s3"><a href="#test1">Test 1</a></li>-->
+                <!--<li class="tab col s3"><a href="#test2">Test 2</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Tab 1 is clicked whatever is inside this div will show&ndash;&gt;-->
+        <!--<div id="test1" class="col s12">Test 1</div>-->
+        <!--&lt;!&ndash; Tab 2 is clicked whatever is inside this div will show&ndash;&gt;-->
+        <!--<div id="test2" class="col s12">Test 2</div>-->
+    <!--</div>-->
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!-- Option #2: create two divs by hand; build out each display that will show; use jQuery show hide as the user
          navigates between views
          Problem: None yet; only downside is time it will take. I am inclined to say go with this option as it will
          scalability issues; we can potentially scale to whatever size we want + mark up will likely be more modular
          and easy to maintain
     -->
+    <!----------------------------------------------------------------------------------------------------------------->
+    <div class="center-align">
+        <!-- Main Selectors -->
+        <div class="row">
+            <div class="col s6 waves-effect waves-light primarySelector ">
+                <h5>Activities</h5>
+            </div>
+            <div class="col s6 waves-effect waves-light primarySelector">
+                <h5>Devices</h5>
+            </div>
+        </div>
+
+        <!-- Choices (each will have its own row with two columns. Col 1 for the icon and Col 2 for the text -->
+        <!--TODO - consider using a list for this????-->
+        <div class="row">
+            <div class="col s3 center-align choiceItem">
+                <!--<span><i class="fa fa-lightbulb-o fa-choiceIcon" aria-hidden="true"></i></span>-->
+                <i class="fa fa-lightbulb-o fa-choiceIcon" aria-hidden="true"></i>
+            </div>
+            <div class="col s9 left-align choiceItem">
+                <h5 class="choiceText">Lights</h5>
+            </div>
+        </div>
 
 
+    </div>
+
+    <!--<a class="waves-effect waves-light btn-large testbtnidea"><i class="material-icons left">cloud</i>button</a>-->
+    <a class="waves-effect waves-light btn-large testbtnidea"><i class="fa fa-lightbulb-o  material-icons left" aria-hidden="true"></i>button</a>
 
 
-
+    <!----------------------------------------------------------------------------------------------------------------->
 </main>
 
 

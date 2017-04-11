@@ -9,3 +9,8 @@
 ##### Cons: Will take longer to build out and add functionality. 
 
 ##### Initial Thought: take the long road for scalability sake. Don't have to go back and rebuild this thing when/if it gets out of hand
+
+
+##### Random Thoughts: 
+##### For the list of choices - instead of using rows and colums maybe incorporate a list somehow? Need to figure out how to set up columns inside of a list item though
+##### list items that are buttons??????????? Will be easy to add an onclick show hide!!!!will also keep the waves effect consistent across the app

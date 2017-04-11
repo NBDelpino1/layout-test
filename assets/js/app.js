@@ -4,6 +4,6 @@ $( document ).ready(function(){
     $(".button-collapse").sideNav();
 
     // initialize tabs
-    $('ul.tabs').tabs();
+    // $('ul.tabs').tabs();
 
 });

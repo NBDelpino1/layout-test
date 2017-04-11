@@ -1,3 +1,36 @@
+body, html {
+    height:100%;
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .row, .col {
-    padding:0 !important;
+    margin:0;
+}
+nav .nav-wrapper {
+    background-color: #e4e1e1;
+}
+
+.primarySelector {
+    height:50px;
+    background-color: #e4e1e1;
+}
+
+.choiceItem {
+    height:100px;
+    background-color: red;
+}
+.fa-choiceIcon {
+    font-size:60px;
+    padding-top:20px;
+}
+
+.choiceText {
+    padding-top:25px;
+    padding-left:75px;
+}
+
+
+.testbtnidea {
+    width:100%;;
 }
