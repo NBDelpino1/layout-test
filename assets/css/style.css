@@ -11,6 +11,7 @@ nav .nav-wrapper {
     background-color: #e4e1e1;
 }
 
+/* --------- div option --------- */
 .primarySelector {
     height:50px;
     background-color: #e4e1e1;
@@ -30,7 +31,8 @@ nav .nav-wrapper {
     padding-left:75px;
 }
 
-
+/* --------- Button option ---------*/
 .testbtnidea {
-    width:100%;;
+    width:100%;
+    height:100px;
 }

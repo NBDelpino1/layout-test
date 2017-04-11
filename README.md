@@ -13,4 +13,5 @@
 
 ##### Random Thoughts: 
 ##### For the list of choices - instead of using rows and colums maybe incorporate a list somehow? Need to figure out how to set up columns inside of a list item though
-##### list items that are buttons??????????? Will be easy to add an onclick show hide!!!!will also keep the waves effect consistent across the app
+##### list items that are buttons??????????? Will be easy to add an onclick show hide!!!!will also keep the waves effect consistent across the app.
+#### Note with the button option I will need to consider adjusting the padding OR finding an alternative to centering the text OR maybe default will work
