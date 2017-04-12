@@ -18,6 +18,7 @@
 
 
 ### TEST 1 - Button inside of list view
+#### If less buttons are needed we can increase the height and adjust the padding so the buttons take up the full screen- will keep a consistent clean look no white space
 
 ![image](https://cloud.githubusercontent.com/assets/18251657/24938892/f2cbe060-1f07-11e7-95df-c0f3bfdabd48.png)
 
