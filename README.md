@@ -15,3 +15,10 @@
 ##### For the list of choices - instead of using rows and colums maybe incorporate a list somehow? Need to figure out how to set up columns inside of a list item though
 ##### list items that are buttons??????????? Will be easy to add an onclick show hide!!!!will also keep the waves effect consistent across the app.
 #### Note with the button option I will need to consider adjusting the padding OR finding an alternative to centering the text OR maybe default will work
+
+
+### TEST 1 - Button inside of list view
+
+![image](https://cloud.githubusercontent.com/assets/18251657/24938892/f2cbe060-1f07-11e7-95df-c0f3bfdabd48.png)
+
+![image](https://cloud.githubusercontent.com/assets/18251657/24938896/f5c1df18-1f07-11e7-993f-6749e0513543.png)
