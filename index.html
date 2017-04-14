@@ -18,48 +18,22 @@
         <div class="nav-wrapper">
             <a href="#!" class="brand-logo">Harmony Hub</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <!--<ul class="right hide-on-med-and-down">-->
-                <!--<li><a href="#">Activities</a></li>-->
-                <!--<li><a href="#">Devices</a></li>-->
-            <!--</ul>-->
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Something</a></li>
+                <li><a href="#">Something</a></li>
+            </ul>
             <ul class="side-nav" id="mobile-demo">
-                <li><a href="#">Activities</a></li>
-                <li><a href="#">Devices</a></li>
+                <li><a href="#">Something</a></li>
+                <li><a href="#">Something</a></li>
             </ul>
         </div>
     </nav>
 </header>
 
 <main>
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!-- Option #1: use Materialize tabs to hold the divs
-        Problem: This may not be a scalable approach; what happens after the div appears? How will the user move to the
-        next section after clicking that div???
-        -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--<div class="row">-->
-        <!--<div class="col s12">-->
-            <!--<ul class="tabs tabs-fixed-width">-->
-                <!--<li class="tab col s3"><a href="#test1">Test 1</a></li>-->
-                <!--<li class="tab col s3"><a href="#test2">Test 2</a></li>-->
-            <!--</ul>-->
-        <!--</div>-->
-        <!--&lt;!&ndash; Tab 1 is clicked whatever is inside this div will show&ndash;&gt;-->
-        <!--<div id="test1" class="col s12">Test 1</div>-->
-        <!--&lt;!&ndash; Tab 2 is clicked whatever is inside this div will show&ndash;&gt;-->
-        <!--<div id="test2" class="col s12">Test 2</div>-->
-    <!--</div>-->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!-- Option #2: create two divs by hand; build out each display that will show; use jQuery show hide as the user
-         navigates between views
-         Problem: None yet; only downside is time it will take. I am inclined to say go with this option as it will
-         scalability issues; we can potentially scale to whatever size we want + mark up will likely be more modular
-         and easy to maintain
-    -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <div class="center-align">
-        <!-- Main Selectors -->
-        <div class="row">
+    <!--<div class="center-align">-->
+        <!----------------------------------------- Main Selectors ---------------------------------------------------->
+        <div class="row center-align">
             <div class="col s6 waves-effect waves-light primarySelector ">
                 <h5>Activities</h5>
             </div>
@@ -67,9 +41,9 @@
                 <h5>Devices</h5>
             </div>
         </div>
+        <!----------------------------------------- Main Selectors End------------------------------------------------->
 
-        <!-- Choices (each will have its own row with two columns. Col 1 for the icon and Col 2 for the text -->
-        <!--TODO - consider using a list for this????-->
+
 
         <!----------------------------------------------- Div Instead of Button Test ---------------------------------->
         <!--<div class="row">-->
@@ -82,7 +56,8 @@
             <!--</div>-->
         <!--</div>-->
         <!----------------------------------------------- Div Instead of Button End ----------------------------------->
-    </div>
+    <!--</div>-->
+
 
 
     <!----------------------------------------------- Material Button Alone Test -------------------------------------->
@@ -93,19 +68,39 @@
     <!--<a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 5</a>-->
     <!----------------------------------------------- Material Button Alone Test End ---------------------------------->
 
-    <!----------------------------------------------- Material Buttons In List Test------------------------------------>
+
+
+
+    <!----------------------------------------------- Material Buttons In List Test Material Icon --------------------->
+    <!--<ul class="collection material-button-list">-->
+        <!--<li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>-->
+        <!--<li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>-->
+        <!--<li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>-->
+        <!--<li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>-->
+        <!--<li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>-->
+        <!--<li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>-->
+        <!--<li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>-->
+        <!--<li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>-->
+        <!--<li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>-->
+    <!--</ul>-->
+    <!----------------------------------------------- Material Button In List Material Icon End ----------------------->
+
+
+
+
+    <!----------------------------------------------- Material Button In List Image ----------------------------------->
     <ul class="collection material-button-list">
-        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>
-        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>
-        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>
-        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>
-        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>
-        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>
-        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>
-        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>
-        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><i class="fa fa-lightbulb-o material-icons left material-button-icon" aria-hidden="true"></i>Item 1</a></li>
+        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><img src="assets/img/bed.png" class="material-button-img"><h5 class="material-button-text">Bedroom</h5></a></li>
+        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><img src="assets/img/sofa.png" class="material-button-img"><h5 class="material-button-text">Living Room</h5></a></li>
+        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><img src="assets/img/dining-room.png" class="material-button-img"><h5 class="material-button-text">Dinning Room</h5></a></li>
+        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><img src="assets/img/fridge.png" class="material-button-img"><h5 class="material-button-text">Kitchen</h5></a></li>
+        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><img src="assets/img/bathtub.png" class="material-button-img"><h5 class="material-button-text">Bathroom</h5></a></li>
+        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><img src="assets/img/laundry-machine.png" class="material-button-img"><h5 class="material-button-text">Laundry Room</h5></a></li>
+        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><img src="assets/img/garage.png" class="material-button-img"><h5 class="material-button-text">Garage</h5></a></li>
+        <li class="collection-item material-button-list-item"><a class="waves-effect waves-light btn-large material-button"><img src="assets/img/patio.png" class="material-button-img"><h5 class="material-button-text">Patio</h5></a></li>
     </ul>
-    <!----------------------------------------------- Material Button In List End ------------------------------------->
+    <!----------------------------------------------- Material Button In List Image End  ------------------------------>
+
 
 
 

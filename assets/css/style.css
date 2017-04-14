@@ -2,7 +2,7 @@ body, html {
     height:100%;
     width:100%;
     font-family: 'Open Sans', sans-serif;
-    color: #eae8e8;
+    color: #d4d7d9;
 }
 
 .row, .col {
@@ -41,13 +41,18 @@ nav .nav-wrapper {
     font-size:24px;
     height:74px;
     padding-top:6px;
-    /*background-color: #10283c !important;*/
+    padding-right:60px;
+    /*Dark Blue*/ /* Color combo to consider #2196f3 #365fab*/
     background: #141E30;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.waves-effect {
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+}
 .material-button-icon:before {
     font-size:50px;
 }
@@ -56,10 +61,54 @@ nav .nav-wrapper {
     /*padding:0;*/
 /*}*/
 
+.material-button-list:not(.browser-default) {
+    border:0;
+}
+
+
 .material-button-list .material-button-list-item {
     padding:0;
+    border-color: #131d2d;
 }
 
 .material-button-list:not(.browser-default) {
     margin-top:0;
 }
+
+.option3 {
+    font-size:24px;
+}
+
+.material-button-img {
+    padding-top:5px;
+    float: left;
+}
+
+.material-button-text{
+    display: inline-block;
+    float: left;
+    padding-left:70px;
+}
+
+
+/*Side Nav*/
+.side-nav {
+    /*Dark Blue*/
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.side-nav a {
+    color: #fff;
+    border-bottom:1px solid #131d2d;
+    font-size:24px;
+    height:74px;
+    padding-top:10px;
+}
+
+
+.row .col.s6 {
+    border:1px solid #131d2d;
+}
+
