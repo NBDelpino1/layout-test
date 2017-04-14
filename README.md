@@ -25,10 +25,10 @@
 ![image](https://cloud.githubusercontent.com/assets/18251657/25030158/317a6db0-2091-11e7-9c47-70a1dd8d57aa.png)
 
 
-#### STAGE 1 OF BUILD
+#### STAGE 1 OF BUILD:
 
 ![image](https://cloud.githubusercontent.com/assets/18251657/24938892/f2cbe060-1f07-11e7-95df-c0f3bfdabd48.png)
 
-#### STAGE 2 OF BUILD
+#### STAGE 2 OF BUILD:
 
 ![image](https://cloud.githubusercontent.com/assets/18251657/25030210/7840c14a-2091-11e7-84bb-55749d6554f6.png)
