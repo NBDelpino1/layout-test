@@ -32,3 +32,10 @@
 #### STAGE 2 OF BUILD:
 
 ![image](https://cloud.githubusercontent.com/assets/18251657/25030210/7840c14a-2091-11e7-84bb-55749d6554f6.png)
+
+
+#### GRADIENT VS TINTED BG POSSIBILITIES (NOTE GRADIENT, IMAGE AND OR TINT CAN BE CHANGED, THIS IS SIMPLY TO SHOW THE VARIOUS EFFECTS)
+
+![image](https://cloud.githubusercontent.com/assets/18251657/25060537/e19a86ee-216d-11e7-998a-f320bebc627b.png)
+![image](https://cloud.githubusercontent.com/assets/18251657/25060538/e6bbb652-216d-11e7-9b0e-a11483f5caee.png)
+![image](https://cloud.githubusercontent.com/assets/18251657/25060539/e9f04e46-216d-11e7-93a2-3e55f5999b20.png)

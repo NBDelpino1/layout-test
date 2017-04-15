@@ -1,23 +1,84 @@
+/*----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------ GLOBAL STYLES ---------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------*/
 body, html {
     height:100%;
     width:100%;
     font-family: 'Open Sans', sans-serif;
     color: #d4d7d9;
+    /*background-image: url("https://c2.staticflickr.com/4/3695/32917160673_e248aee945_k.jpg");*/
+
+}
+
+/*TRANSPARENT VIBE*/
+body {
+    background:
+            linear-gradient(
+                    /*rgba(0, 0, 0, 0.7),*/
+                    /*rgba(0, 0, 0, 0.7)*/
+
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.2)
+            ),
+            /*url("https://c2.staticflickr.com/4/3695/32917160673_e248aee945_k.jpg") no-repeat center center scroll;*/
+            url("../img/AdobeStockPink.jpeg") no-repeat center center scroll;
+            /*url("../img/AdobeStockBlue.jpeg") no-repeat center center scroll;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
 }
 
 .row, .col {
     margin:0;
 }
+
+/*------------------------------------------------ MAIN NAV START ----------------------------------------------------*/
+
 nav .nav-wrapper {
     background-color: #152133;
 }
 
-/* --------- div option --------- */
+/*------------------------------------------------ MAIN NAV END ------------------------------------------------------*/
+
+/*------------------------------------------------ SIDE NAV START ----------------------------------------------------*/
+
+.side-nav {
+    /* fallback for old browsers */
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #243B55, #141E30);
+}
+
+.side-nav a {
+    color: #fff;
+    border-bottom:1px solid #131d2d;
+    font-size:24px;
+    height:74px;
+    padding-top:10px;
+}
+
+/*TODO : ASSIGN PROPER NAMING CONVENTION THAT ALLOWS MORE SPECICIFITY*/
+.row .col.s6 {
+    border:1px solid #131d2d;
+}
+/*------------------------------------------------ SIDE NAV END ------------------------------------------------------*/
 .primarySelector {
     height:50px;
     background-color: #152133;
     color: #fff;;
 }
+
+
+/*----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------ LOCAL STYLES ----------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------ DIV INSTEAD OF BUTTON START ---------------------------------------*/
 
 .choiceItem {
     height:100px;
@@ -34,7 +95,11 @@ nav .nav-wrapper {
     padding-left:75px;
 }
 
-/* --------- Button option ---------*/
+/*------------------------------------------------ DIV INSTEAD OF BUTTON END -----------------------------------------*/
+
+
+/*------------------------------------------------ MATERIALIZE BUTTON START ------------------------------------------*/
+
 .material-button {
     width:100%;
     text-transform: none;
@@ -42,10 +107,12 @@ nav .nav-wrapper {
     height:74px;
     padding-top:6px;
     padding-right:60px;
-    /*Dark Blue*/ /* Color combo to consider #2196f3 #365fab*/
-    background: #141E30;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* fallback for old browsers */
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #243B55, #141E30);
 }
 
 .waves-effect {
@@ -53,6 +120,7 @@ nav .nav-wrapper {
     -moz-border-radius:0;
     border-radius:0;
 }
+
 .material-button-icon:before {
     font-size:50px;
 }
@@ -64,7 +132,6 @@ nav .nav-wrapper {
 .material-button-list:not(.browser-default) {
     border:0;
 }
-
 
 .material-button-list .material-button-list-item {
     padding:0;
@@ -90,25 +157,29 @@ nav .nav-wrapper {
     padding-left:70px;
 }
 
+/*------------------------------------------------ MATERIALIZE BUTTON END --------------------------------------------*/
 
-/*Side Nav*/
-.side-nav {
-    /*Dark Blue*/
-    background: #141E30;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+/*#911f40 rgba(145,31,64,1)- pinkish color*/
+/*.waves-effect*/
+
+
+/*IMPORTANT FOR TRANSPARENT BUTTON*/
+.waves-effect {
+    background: transparent;
 }
 
-.side-nav a {
-    color: #fff;
-    border-bottom:1px solid #131d2d;
-    font-size:24px;
-    height:74px;
-    padding-top:10px;
+.btn-custom {
+    padding-left:30px;
+    color: #d4d7d9;
 }
 
-
-.row .col.s6 {
-    border:1px solid #131d2d;
+.btn-large:hover {
+    background-color: rgba(145,31,64,.5);
 }
 
+/*main {*/
+    /*width:60%;*/
+    /*margin:auto;*/
+/*}*/
